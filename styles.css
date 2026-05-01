@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body {
+    background-color:  hsl(0, 0%, 8%) ;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color:  hsl(0, 0%, 12%) ;
+    width: 22em;
+    border-radius: 1em;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.img {
+    border-radius: 4em;
+    width: 33%;
+    margin-top: 1.6em;
+}
+.jess {
+    font-size: 1.6em;
+    margin-bottom: .4em;
+    font-weight: 500;
+}
+.location {
+    color: hsl(75, 94%, 57%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: .9em;
+}
+.description {
+    font-weight: 400;
+    font-size: 0.875em;
+    font-weight: 200;
+}
+.platforms {
+    /* padding: 1.5em; */
+    margin: 2em auto;
+    width: 80%;
+    margin-bottom: 1emem;
+}
+.socials {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: .5em;
+    padding: .85em;
+    font-size: .85em;
+    padding: 1em;
+
+}
+.socials:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+.link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
